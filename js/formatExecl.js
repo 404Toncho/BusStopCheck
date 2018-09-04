@@ -4,7 +4,7 @@ var fs = require("fs");
 //xlsx --> .json file
 //xlsx文件转json文件
 xlsxj({
-    input: "./xlsx/fullSample.xlsx",
+    input: "./xlsx/sample.xlsx",
     output: "./json/xlsx_full_Output.json"
 }, function (err, result) {
     if (err) {
